@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/jiayu/s3_h560" name="gfofanov/android_device_jiayu_s3_h560" revision="cm-14.1" />
-  <project path="vendor/jiayu/s3_h560" name="gfofanov/android_vendor_jiayu_s3_h560" revision="cm-14.1" />
-  <project path="vendor/mad" name="gfofanov/android_vendor_mad" revision="cm-14.1" />
-  <project path="kernel/jiayu/s3_h560" name="gfofanov/android_kernel_jiayu_s3_h560" revision="android-8" />
+  <project path="device/jiayu/s3_h560" name="AnhellK/android_device_jiayu_s3_h560" revision="cm-14.1" />
+  <project path="vendor/jiayu/s3_h560" name="AnhellK/android_vendor_jiayu_s3_h560" revision="cm-14.1" />
+  <project path="vendor/mad" name="AnhellK/android_vendor_mad" revision="cm-14.1" />
+  <project path="kernel/jiayu/s3_h560" name="AnhellK/android_kernel_jiayu_s3_h560" revision="android-8" />
 
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_system_core" />
@@ -18,18 +18,18 @@
   <remove-project name="LineageOS/android_packages_apps_Nfc"/>
 
 
-  <project path="hardware/libhardware" name="gfofanov/android_hardware_libhardware_mtk" groups="pdk" />
-  <project path="packages/apps/Dialer" name="gfofanov/packages_apps_Dialer_mtk" groups="pdk" />
-  <project path="packages/services/Telephony" name="gfofanov/packages_services_Telephony_mtk" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="gfofanov/android_external_wpa_supplicant_8-mtk"  />
+  <project path="hardware/libhardware" name="AnhellK/android_hardware_libhardware_mtk" groups="pdk" />
+  <project path="packages/apps/Dialer" name="AnhellK/packages_apps_Dialer_mtk" groups="pdk" />
+  <project path="packages/services/Telephony" name="AnhellK/packages_services_Telephony_mtk" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="AnhellK/android_external_wpa_supplicant_8-mtk"  />
   <project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-14.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" />
-  <project path="bionic" name="gfofanov/android_bionic_mtk" groups="pdk" />
-  <project path="system/core" name="gfofanov/android_system_core_mtk" groups="pdk" />
-  <project path="frameworks/av" name="gfofanov/android_frameworks_av_mtk" groups="pdk" />
-  <project path="frameworks/native" name="gfofanov/android_frameworks_native_mtk" groups="pdk" />
-  <project path="frameworks/opt/telephony" name="gfofanov/android_frameworks_opt_telephony_mtk" groups="pdk" />
-  <project path="frameworks/base" name="gfofanov/android_frameworks_base" groups="pdk" revision="cm-14.1" />
+  <project path="bionic" name="AnhellK/android_bionic_mtk" groups="pdk" />
+  <project path="system/core" name="AnhellK/android_system_core_mtk" groups="pdk" />
+  <project path="frameworks/av" name="AnhellK/android_frameworks_av_mtk" groups="pdk" />
+  <project path="frameworks/native" name="AnhellK/android_frameworks_native_mtk" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="AnhellK/android_frameworks_opt_telephony_mtk" groups="pdk" />
+  <project path="frameworks/base" name="AnhellK/android_frameworks_base" groups="pdk" revision="cm-14.1" />
  
   <!-- vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8: -->
 </manifest>
