@@ -1,8 +1,5 @@
 Local manifest for Jiayu s3 (Lineage os 14.1) 
 
-Getting Started
-
-Getting Started
 
 Initialize a repository with LineageOS:
 
