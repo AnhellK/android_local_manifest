@@ -12,17 +12,19 @@
   <remove-project name="LineageOS/android_frameworks_native" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_bionic" />
-  <remove-project name="LineageOS/android_external_wpa_supplicant_8" />
-  <remove-project name="LineageOS/android_hardware_libhardware" />
-  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <!--remove-project name="LineageOS/android_external_wpa_supplicant_8" /-->
+  <!--remove-project name="LineageOS/android_hardware_libhardware" /-->
+  <!--remove-project name="LineageOS/android_packages_apps_Dialer" /-->
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <remove-project name="LineageOS/android_packages_apps_Nfc"/>
 
 
-  <project path="hardware/libhardware" name="AnhellK/android_hardware_libhardware_mtk" groups="pdk" />
-  <project path="packages/apps/Dialer" name="AnhellK/packages_apps_Dialer_mtk" groups="pdk" />
+  <!--project path="hardware/libhardware" name="AnhellK/android_hardware_libhardware_mtk" groups="pdk" /-->
+  <!--project path="packages/apps/Dialer" name="AnhellK/packages_apps_Dialer_mtk" groups="pdk" /-->
+  <project path="packages/apps/Updater" name="AnhellK/android_packages_apps_Updater" groups="pdk" />
   <project path="packages/services/Telephony" name="AnhellK/packages_services_Telephony_mtk" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="AnhellK/android_external_wpa_supplicant_8-mtk"  />
+  <!--project path="external/wpa_supplicant_8" name="AnhellK/android_external_wpa_supplicant_8-mtk"  /-->
   <project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-14.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1" />
   <project path="bionic" name="AnhellK/android_bionic_mtk" groups="pdk" />
